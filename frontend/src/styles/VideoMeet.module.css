@@ -1,0 +1,99 @@
+.meetVideoContainer {
+    position: relative;
+    height: 100vh;
+    background: rgb(1, 4, 48);
+}
+
+.meetUserVideo {
+    position: absolute;
+    bottom: 10vh;
+    height: 20vh;
+    width: auto;
+    left: 0;
+    border-radius: 20px;
+}
+
+.buttonContainers {
+    position: absolute;
+    width: 100vw;
+    bottom: 0;
+    text-align: center;
+}
+
+.buttonContainers svg {
+    font-size: 3rem;
+}
+
+.conferenceView { 
+
+    display: flex;
+    
+    padding: 10px;
+    gap: 10px;
+}
+
+.conferenceView  video {
+    width: 40vw;
+    height: 20vh;
+    min-width: 30vw;
+    border-radius: 10px;
+}
+
+.chatRoom {
+    position: absolute;
+    height: 90vh;
+    right: 0;
+    background: white;
+    border-radius: 10px;
+    width: 30vw;
+    padding-inline: 20px;
+}
+
+.chatContainer {
+    position: relative;
+    height: 100%;
+    
+}
+
+
+.chattingArea {
+    position: absolute;
+
+    bottom: 0;
+    padding: 1rem;
+    height: 20%;
+
+    
+    /* margin-left: 2rem;   */
+    
+}
+
+.chattingDisplay{
+    /* background-color: blue;
+    border-radius: 5px;
+    padding: 0.5rem;
+    margin-top: 1rem; */
+    height: 80%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.chatDiv{
+    background-color: blue;
+    border-radius: 5px;
+    padding: 0.5rem;
+    margin: 1rem;
+    margin-bottom: 0.5rem;
+    min-width: 30rem;
+    max-width: 5rem;
+    width: fit-content;
+    
+    max-width: 80px;
+    max-height: 5rem;
+    
+}
+.btn{
+    padding: 1rem;
+    width:5rem;
+    height:3.65rem;
+    margin: 1rem;
+}
